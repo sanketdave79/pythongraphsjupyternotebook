@@ -4,6 +4,7 @@ import plotly.graph_objs as go
 
 with open('/Users/admin/Downloads/Hamilton1.csv', 'r') as f:
     reader = csv.reader(f, delimiter=',')
+    # specifying columns 
     included_cols = [24]
     content = list()
     label = []
